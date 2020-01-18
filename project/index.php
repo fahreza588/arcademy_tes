@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Aguzrybudy.com | Crud Menggunakan Modal Bootstrap (popup)</title>
-<meta content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport"/>
-<meta content="Aguzrybudy" name="author"/>
+<title>Data Kasir</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -54,7 +52,7 @@ while($print = mysqli_fetch_array($data)) {
 
       <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h4 class="modal-title" id="myModalLabel">Add Data Using Modal Boostrap (popup)</h4>
+            <h4 class="modal-title" id="myModalLabel">Add Data</h4>
         </div>
 
         <div class="modal-body">
